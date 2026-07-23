@@ -50,17 +50,17 @@ UIを構築するための基本的なコンポーネント（部品）の仕様
 ```dart
 // ディレクトリ構成ツリー
 .
-├── COLUMN.md
-├── CURRENT_PROJECT.md
-├── DEV_ENV_README.md
-├── EXERCISES.md
-├── FAQ.md
-├── FINAL_PROJECT.md
-├── INDEX.md
+├── COLUMN.md (コラム一覧)
+├── CURRENT_PROJECT.md (コラム)
+├── DEV_ENV_README.md (環境構築ガイド)
+├── EXERCISES.md (演習課題 - 必須ではありません)
+├── FAQ.md (質問と回答)
+├── FINAL_PROJECT.md (最終課題 -App作成)
+├── INDEX.md(現在参照中のｲﾝﾃﾞｸｽ資料)
 ├── README.md
-├── RESOURCES.md
-├── TROUBLESHOOTING.md
-└── WIDGET_README.md
+├── RESOURCES.md(外部資料 - 学習、コミュニティがあるので手隙に参照を推奨)
+├── TROUBLESHOOTING.md(トラブルガイド - 足りない資料があれば教えて下さい)
+└── WIDGET_README.md(widget構造 - 実装についてのガイドです)
 ```
 
 ---
