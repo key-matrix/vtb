@@ -43,6 +43,10 @@ class MyApp extends StatelessWidget {
     if (kDebugMode) {
       debugPrint("--起動-${DateTime.now()}-");
     }
+
+
+    //起動の文字と現在日時を表示、中川
+
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'CHAFATO',
