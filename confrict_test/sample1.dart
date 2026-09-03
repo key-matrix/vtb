@@ -9,7 +9,7 @@ import 'firebase_options.dart';
 
 
 // TODO1 : dev/master ブランチをcloneし、自分の作業ブランチを分岐させてください。
-//         ①ワーキングディレクトリは /Users/自分のユーザー名/Documents/flutter_class 指定します。
+//         ①ワーキングルートディレクトリは /Users/自分の名前/development/flutter_class 指定
 //         ②命名規則は「dev/feature/あなたの名前」 ロアスネークケースです。
 // TODO2 : このファイルの内容を対象の行にコメントを各々追記してください、
 // TODO3 : プッシュして、他のメンバーが作成したブランチとマージ作業を行います。[※説明があるまで進めないでください]
