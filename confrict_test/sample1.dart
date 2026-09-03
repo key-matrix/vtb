@@ -37,7 +37,11 @@ void main() async {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
+//Dart におけるアノテーション（クラス、メソッド、変数などに対して特定の処理や動作を追加する時に使われる）の一つで、既存のメソッドを意図的に上書きしたい時に使用される
+// これにより、同じ名前のメソッドが2つ存在するなどのミスを防ぐ事が出来る。
 
+// あくまで、既に定義された既存のメソッドを上書きしたい時に使われるため、新しくメソッドを定義する時は @override は不要。
+// 極論、@override つけて定義する事も出来なくはないが、本来の使い方として正しくはないためいらない。
   @override
   Widget build(BuildContext context) {
     if (kDebugMode) {
