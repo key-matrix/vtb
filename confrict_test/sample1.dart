@@ -27,6 +27,10 @@ void main() async {
   );
 }
 
+// TODO1 : dev/master ブランチから分岐させたブランチを作成してください、命名規則は「dev/feature/あなたの名前」にしてください。
+// TODO2 : このファイルに対しての説明を各々追記してください、
+// TODO3 : プッシュして、他のメンバーが作成したブランチとマージ作業を行います。[※説明があるまで進めないでください]
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
