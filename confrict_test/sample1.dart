@@ -15,8 +15,7 @@ import 'firebase_options.dart';
 // TODO3 : プッシュして、他のメンバーが作成したブランチとマージ作業を行います。[※説明があるまで進めないでください]
 
 
-// エンポリーポイント
-
+// エントリーポイント
 void main() async {
   // Flutterの初期化
   WidgetsFlutterBinding.ensureInitialized();
