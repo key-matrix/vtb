@@ -14,7 +14,10 @@ import 'firebase_options.dart';
 // TODO2 : このファイルの内容を対象の行にコメントを各々追記してください、
 // TODO3 : プッシュして、他のメンバーが作成したブランチとマージ作業を行います。[※説明があるまで進めないでください]
 
+
+// エントリーポイント
 void main() async {
+  // Flutterの初期化
   WidgetsFlutterBinding.ensureInitialized();
 
   // 環境変数をロード
@@ -26,8 +29,10 @@ void main() async {
   );
 
   // App Checkを初期化
-  // await FirebaseAppCheck.instance.activate();
+  await FirebaseAppCheck.instance.activate();
 
+  // ProviderScope(権限)をアプリ全体に付与
+  // MyAppを起動する
   runApp(
     ProviderScope(
       child: MyApp(),
@@ -35,19 +40,29 @@ void main() async {
   );
 }
 
+// ステートレスウィジェットのMyAppクラスの定義
 class MyApp extends StatelessWidget {
+  // MyAppのコンストラクタ
   const MyApp({super.key});
-
+  
   @override
+  // buildメソッドの定義
   Widget build(BuildContext context) {
+    // デバッグモードの場合、起動時の日時を出力する
     if (kDebugMode) {
       debugPrint("--起動-${DateTime.now()}-");
     }
+    // MaterialAppを返す
     return MaterialApp(
+      // デバッグモードのバナーを非表示にする
       debugShowCheckedModeBanner: false,
+      // アプリのタイトルをCHAFATOに設定
       title: 'CHAFATO',
+      // アプリのテーマを設定
       theme: ThemeData(
+        // プライマリカラーを青に設定
         primarySwatch: Colors.blue,
+        // フォントを設定
         fontFamily: "NotoSansJP", // font対応
       ),
       // インデックス画面へ遷移
