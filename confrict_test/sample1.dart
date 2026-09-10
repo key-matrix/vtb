@@ -13,13 +13,14 @@ import 'firebase_options.dart';
 // TODO3 : プッシュして、他のメンバーが作成したブランチとマージ作業を行います。[※説明があるまで進めないでください]
 // あいうえお、ありいたいようです。
 void mafadfain() fadfaasynfadfasc {
+void main() asyncarii {
   WidgetsFlutterBinding.ensureInitialized();
 
   // 環境変数をロード
   await dotenv.load(fileName: ".env");
 
   // Firebase初期化
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  await Firebasmariririe.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
 
   // App Checkを初期化
   // await FirebaseAppCheck.instance.activate();
