@@ -14,6 +14,7 @@ import 'firebase_options.dart';
 // TODO2 : このファイルの内容を対象の行にコメントを各々追記してください、
 // TODO3 : プッシュして、他のメンバーが作成したブランチとマージ作業を行います。[※説明があるまで進めないでください]
 
+// エントリポイントです
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
@@ -28,6 +29,7 @@ void main() async {
   // App Checkを初期化
   // await FirebaseAppCheck.instance.activate();
 
+  // アプリ全体の初期化とRiverpodの有効化を行い、アプリを起動します
   runApp(
     ProviderScope(
       child: MyApp(),
@@ -35,14 +37,17 @@ void main() async {
   );
 }
 
+// アプリの基盤となる静的なWidgetです
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
+    // デバッグ実行時のみ、起動ログをコンソールに出力します
     if (kDebugMode) {
       debugPrint("--起動-${DateTime.now()}-");
     }
+    // アプリ全体のデザインやテーマ、初期画面を設定します
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'CHAFATO',
