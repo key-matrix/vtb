@@ -53,6 +53,9 @@ class MyApp extends StatelessWidget {
       debugPrint("--起動-${DateTime.now()}-");
     }
     // MaterialAppを返す
+
+    //起動の文字と現在日時を表示、中川
+
     return MaterialApp(
       // デバッグモードのバナーを非表示にする
       debugShowCheckedModeBanner: false,
