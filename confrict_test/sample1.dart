@@ -7,13 +7,12 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'firebase_options.dart';
 
 
-
 // TODO1 : dev/master ブランチをcloneし、自分の作業ブランチを分岐させてください。
 //         ①ワーキングルートディレクトリは /Users/自分の名前/development/flutter_class 指定
 //         ②命名規則は「dev/feature/あなたの名前」 ロアスネークケースです。
 // TODO2 : このファイルの内容を対象の行にコメントを各々追記してください、
 // TODO3 : プッシュして、他のメンバーが作成したブランチとマージ作業を行います。[※説明があるまで進めないでください]
-
+// TODO4 : 再度プルしてみましょう
 
 // エントリーポイント
 void main() async {
@@ -44,11 +43,12 @@ void main() async {
 class MyApp extends StatelessWidget {
   // MyAppのコンストラクタ
   const MyApp({super.key});
-  
+
   @override
   // buildメソッドの定義
   Widget build(BuildContext context) {
     // デバッグモードの場合、起動時の日時を出力する
+    // kde
     if (kDebugMode) {
       debugPrint("--起動-${DateTime.now()}-");
     }
@@ -63,19 +63,18 @@ class MyApp extends StatelessWidget {
       title: 'CHAFATO',
       // アプリのテーマを設定
       theme: ThemeData(
+        //
         // プライマリカラーを青に設定
         primarySwatch: Colors.blue,
         // フォントを設定
         fontFamily: "NotoSansJP", // font対応
       ),
-      // インデックス画面へ遷移
+      // インデックス画面へ遷移 存在かくにんはできましたか？
       home: LoginScreen(),
 
-      // LoginScreen(),
-
-      // CalculateScreen(),
+      //
     );
   }
 }
 
-dlapdkaowdkoakdoawd
+dlapdkaowdkoakdoawdasdasdasdasdasdasdasdasdasd
