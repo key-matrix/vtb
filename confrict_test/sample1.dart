@@ -12,8 +12,8 @@ import 'firebase_options.dart';
 // TODO2 : このファイルの内容を対象の行にコメントを各々追記してください、
 // TODO3 : プッシュして、他のメンバーが作成したブランチとマージ作業を行います。[※説明があるまで進めないでください]
 // あいうえお、ありいたいようです。
-void mafadfain() fadfaasynfadfasc {
-void main() asyncarii {
+void mafadfain() fadfaadfafadfaasynfadfasc {
+void main() asafdafyncarii {
   WidgetsFlutterBinding.ensureInitialized();
 
   // 環境変数をロード
