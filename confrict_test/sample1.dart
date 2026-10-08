@@ -13,7 +13,7 @@ import 'firebase_options.dart';
 //         ②命名規則は「dev/feature/あなたの名前」 ロアスネークケースです。
 // TODO2 : このファイルの内容を対象の行にコメントを各々追記してください、
 // TODO3 : プッシュして、他のメンバーが作成したブランチとマージ作業を行います。[※説明があるまで進めないでください]
-
+// うんちうんちうんち
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
