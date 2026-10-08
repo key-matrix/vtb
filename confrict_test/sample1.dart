@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     if (kDebugMode) {
-      debugPrint("--起動-${DateTime.now()}-");
+      debugPrint("--きどう-${DateTime.now()}-");
     }
 
 
