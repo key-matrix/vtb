@@ -6,14 +6,16 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'firebase_options.dart';
 
+
+
 // TODO1 : dev/master ブランチをcloneし、自分の作業ブランチを分岐させてください。
 //         ①ワーキングルートディレクトリは /Users/自分の名前/development/flutter_class 指定
 //         ②命名規則は「dev/feature/あなたの名前」 ロアスネークケースです。
 // TODO2 : このファイルの内容を対象の行にコメントを各々追記してください、
 // TODO3 : プッシュして、他のメンバーが作成したブランチとマージ作業を行います。[※説明があるまで進めないでください]
-// あいうえお、ありいたいようです。
-void mafadfain() fadfaadfafadfaasynfadfasc {
-void main() asafdafyncarii {
+
+// エントリポイントです
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   // 環境変数をロード
@@ -25,21 +27,25 @@ void main() asafdafyncarii {
   // App Checkを初期化
   // await FirebaseAppCheck.instance.activate();
 
-  runApp(ProviderScope(child: MyApp()));
+  // アプリ全体の初期化とRiverpodの有効化を行い、アプリを起動します
+  runApp(
+    ProviderScope(
+      child: MyApp(),
+    ),
+  );
 }
 
+// アプリの基盤となる静的なWidgetです
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
+    // デバッグ実行時のみ、起動ログをコンソールに出力します
     if (kDebugMode) {
-      debugPrint("--きどう-${DateTime.now()}-");
+      debugPrint("--起動-${DateTime.now()}-");
     }
-
-
-    //起動の文字と現在日時を表示、中川
-
+    // アプリ全体のデザインやテーマ、初期画面を設定します
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'CHAFATO',
