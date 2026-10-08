@@ -6,7 +6,9 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'firebase_options.dart';
 
+
 あかおdこあdこあどか
+dあkwどあkどあこ
 
 // TODO1 : dev/master ブランチをcloneし、自分の作業ブランチを分岐させてください。
 //         ①ワーキングルートディレクトリは /Users/自分の名前/development/flutter_class 指定
