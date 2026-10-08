@@ -6,6 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'firebase_options.dart';
 
+dあkwどあkどあこ
 
 
 // TODO1 : dev/master ブランチをcloneし、自分の作業ブランチを分岐させてください。
